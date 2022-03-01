@@ -10,8 +10,8 @@ public class ComputeMethods5026211012{
 	}
 	public int roll(){
 	Random roll = new Random();
-	int dice1 = roll.nextInt(6);
-	int dice2 = roll.nextInt(6);
+	int dice1 = roll.nextInt(6)+1;
+	int dice2 = roll.nextInt(6)+1;
 	return dice1 + dice2;
 	}
 }
